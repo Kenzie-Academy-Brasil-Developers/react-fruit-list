@@ -1,0 +1,34 @@
+.users-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 1rem;
+    line-height: 100%;
+    background-color: beige;
+    color: rgba(0, 0, 0, 0.568);
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.users-container:hover{
+    color: black;
+}
+
+.users-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.users-container button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
